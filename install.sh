@@ -49,7 +49,3 @@ chmod +x install && ./install
 
 echo [*] Installing Nuclei vulnerability scanner...
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
-
-echo [*] Installing httprobe...
-sudo apt install httprobe
-echo [*] Installions completed.
